@@ -1,0 +1,44 @@
+# EduStableCoin Overview
+
+EduStableCoin is a dual-cryptocurrency system designed to address three main challenges:
+1. Combat corruption through blockchain transparency
+2. Counter intellectual decline by incentivizing education
+3. Help humans remain relevant in an AI-automated economy
+
+## Core Components
+
+1. **EStableCoin**
+   - Stable currency for education, freelancing, and public services
+   - Limited to one transaction per day
+   - Reversible transactions
+   - Backed by population knowledge
+
+2. **EFlexCoin**
+   - Floating cryptocurrency for creativity and entertainment
+   - Mined through AI tasks, likes, or tips
+   - No transaction limits
+   - Functions as a subnet for fast transfers
+
+## Gaps to Address
+
+1. **Technical Implementation**
+   - Smart contract architecture needs development
+   - Details on knowledge validation mechanisms
+   - Specific blockchain infrastructure (proprietary or existing?)
+
+2. **Tokenomics**
+   - Initial distribution method
+   - Token supply management
+   - Relationship between knowledge metrics and token value
+
+3. **Governance Structure**
+   - Clear framework for user validation
+   - Decision-making processes for protocol changes
+   - Implementation of "unique banknotes" system
+
+4. **Adoption Strategy**
+   - Clear path for integration with existing platforms
+   - User incentives for early adoption
+   - Educational partnerships
+
+Would you like me to elaborate on any specific aspect?
