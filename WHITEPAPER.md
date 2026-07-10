@@ -30,6 +30,17 @@ infrastructure for knowledge and coordination — "not only for money" — and d
 incentives so that learning, honest work, and transparent governance are the
 rewarded activities. The guiding principle is technology in service of people.
 
+**Natural Intelligence (NI).** Where much of the industry races to replace human
+work with Artificial Intelligence, this concept is built on the opposite premise:
+the human is an extraordinarily efficient *biocomputer* — binocular vision,
+on-the-fly reading, an inner voice for reasoning — running on roughly twenty watts.
+Humans still outperform silicon at many tasks, at orders of magnitude lower cost.
+EduStableCoin treats **Natural Intelligence** as the renewable, valuable resource:
+it rewards people for the knowledge and work only they can produce, and uses AI as a
+tool in their service rather than a substitute. Learning here mirrors how a model is
+trained — a person runs volumes of real work through themselves, improving with each
+pass — but unlike a discarded exercise, that work produces real value and pays.
+
 ## 2. Dual-Token Model
 
 - **EStableCoin** — a stable currency for education, freelancing, and public
@@ -91,6 +102,24 @@ on minimal hardware:
 Every assessment result is **hashed to the ledger**, making the knowledge passport
 verifiable and tamper-resistant (this also realizes the early idea that even a
 paper journal can be tracked symbolically via digital hashes).
+
+**Gamified, productive learning.** Learning is delivered as **quests** and
+gamification with **free choice** of subject: quests are real learning and
+assessment tasks (playable inside GodotCraft, see §10), experience and levels map to
+knowledge-passport tiers, and learners choose their own path from the knowledge
+pool. Because each task is real work, practice is never wasted — it simultaneously
+produces value (services and AI-training data), pays the learner, and improves them:
+a **productive loop** of work → learning → better work → more value. **Teachers**
+progress too: basic AI literacy (understanding, at minimum, what a perceptron is) is
+a requirement of the teacher tier, so educators grow alongside the tools.
+
+**Minors and custodial earnings.** For under-age participants, activity is framed as
+*education*, not labor: minors receive educational rewards, scholarships, and
+passport progression rather than wages. Any monetary value accrues in **custodial
+escrow** under a guardian (with parental approval), convertible to money only at
+legal age or through the guardian; pre-majority, value is held as non-monetary points
+and passport tier. (Applicable law varies by jurisdiction; this arrangement is
+subject to legal review.)
 
 ## 6. Transparent Governance
 
