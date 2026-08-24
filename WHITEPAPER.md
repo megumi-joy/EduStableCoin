@@ -66,9 +66,8 @@ pass — but unlike a discarded exercise, that work produces real value and pays
 
 The currency was named **Cryptogrivna** (криптогривня) in the source discussion,
 after the Ukrainian hryvnia, with a crypto-euro as the obvious sibling for a
-wider rollout. The technical names below are what the contracts are called; the
-money people would hold has a national name, because a currency nobody can name
-in their own language is not theirs.
+wider rollout. The technical names below are what the contracts are called; the money people
+would hold has a national name.
 
 - **EStableCoin** (Cryptogrivna) — a stable currency for education, freelancing,
   and public services. Limited to one transaction per day and **reversible** (see §3), which
@@ -117,26 +116,20 @@ table in negotiations (the figure discussed publicly for Ukraine was $500bn) is
 tokenized into the liquidity pool instead of being sold off, and the same is done
 with the aggressor's resources — oil and gas. It is deliberately two-sided:
 revenue that currently funds two war machines is redirected to the people on both
-sides of the line. Knowledge alone makes a fine educational currency and stops no
-war; the ground is what gives the pool a size worth negotiating over.
+sides of the line.
 
 **Allocation.** Of the tokenized revenue: **50%** to education contributors
 (learners and teachers), **30%** to basic needs (food, housing), **20%** to a
 public-treasury pool. A **5% tax at the point of use** funds public services and
 loops back into the same ledger, so tax is visible to the person paying it. The
-paper ledger mirrors the chain line for line — a treasury nobody can read is the
-problem being solved, not the design.
+paper ledger mirrors the chain line for line.
 
 **How much it pays.** The pool pays out of yield and continuing revenue, at a
-rate set by what it actually earns. No fixed monthly figure is printed in
-advance: a promised amount that the pool cannot cover is worse than an honest
-one it can.
+rate set by what it actually earns, rather than from a fixed figure set in
+advance.
 
-**Why not simply copy an existing coin.** Low fees and accessibility are what
-matter for a currency people are meant to hold in daily life, and neither
-requires a fixed supply. A coin issuing several billion units a year without a
-cap is inflationary whatever its reputation says, so the choice here rests on
-cost and reach rather than on scarcity.
+**What matters in the choice of coin** is low fees and accessibility — a
+currency meant to be held in daily life by people without much of it.
 
 ## 5. Education as Freelancing — Access & Progression
 
@@ -175,18 +168,13 @@ their body; this answers *what has this person done* and proves it with the deed
 themselves. Concretely, it carries no name, age, photograph or biometric of any
 kind — only ranks per subject, the number of questions each rank rests on, and how
 each was witnessed: **alone**, **before a master** (oral or handwritten), or **by
-charter** (a seeded credential). This is what makes it safe to show: a card that
-carried a body could not be handed to a stranger, and a credential nobody can show
-is not a credential. The count of questions is always shown beside the rank, so a
-high rank earned on four questions cannot be mistaken for one earned on four
-hundred.
+charter** (a seeded credential). The count of questions is always shown beside
+the rank, so a high rank earned on four questions cannot be mistaken for one
+earned on four hundred.
 
-**The skill system is modelled on a role-playing game, explicitly.** The source
-names Skyrim: skills that advance by being used, visible to the player, with no
-gate on which one you train next. That is where the adventurer's card comes from
-— it is not decoration over a certificate, it is the shape the author asked for.
-Attendance is free in the same spirit: you come to the lessons you want, and you
-are paid for knowledge, not for attendance.
+**The skill system follows the standardized skill scheme of a role-playing
+game** — the source names Skyrim as the reference. Attendance is free and
+payment is for knowledge, not for turning up.
 
 **Gamified, productive learning.** Learning is delivered as **quests** and
 gamification with **free choice** of subject: quests are real learning and
@@ -212,11 +200,10 @@ subject to legal review.)
 disagreement, from a graded exercise to a budget, is stated as those three parts
 before it is argued, and a moral filter rejects proposals whose motive is one of
 the deadly sins. Two effects, both intended by the author: an argument in that
-form is already half a lesson in reasoning, and truth outranks headcount —
-a well-stated cause does not lose to a badly-stated majority. Simple cases are
-settled by smart contract; the ones that need judgement go to human arbiters,
-and their rulings are written to the ledger so the reasoning can be audited
-later.
+form doubles as a lesson in problem-solving, and truth outranks headcount.
+Simple cases are settled by smart contract; the ones that need judgement go to
+human arbiters, and their rulings are written to the ledger so the reasoning can
+be audited later.
 
 An immutable ledger makes payments for education, public services, and taxes
 auditable. Governance has **no voting**. There is no ballot, no competing options and no
@@ -228,14 +215,13 @@ is overwritten. Participants act as validators, may mint personalized tokenized
 contradictions between amendments.
 
 **A validator proves the system by rebuilding it.** The qualifying act is not a
-stake alone: a validator reassembles the application from source and shows that
-what runs is what the source says. Someone who can rebuild it has understood it,
-and a system that only its authors can rebuild is trusted rather than verified.
-This is why the client is modular and reusable — the design exists so that it can
-be taken apart by strangers. The aim is economic
-empowerment as a path to more accountable institutions, and to reducing the
-conditions (poverty, lack of opportunity, lack of transparency) that drive
-instability.
+stake alone: a validator reassembles the application from source, and in doing so
+proves both its security and their own understanding of it. This is why the
+client is built modular and reusable.
+
+The aim is economic empowerment as a path to more accountable institutions, and
+to reducing the conditions (poverty, lack of opportunity, lack of transparency)
+that drive instability.
 
 ## 7. Consensus & Infrastructure
 
@@ -271,9 +257,9 @@ holds a copy they are morally responsible for keeping. Documents are issued in
 three languages so that no one has to give up their own to be understood.
 
 **Nobody is ever made to learn a language** — not English, not Ukrainian, not
-Hutsul, which is a language too. The point of putting them all in one book is the
-opposite of standardizing them: a language that is written down and signed cannot
-be quietly taken away, and the *language question* stops being a reason to fight.
+Hutsul, which is a language too. Preserving them together is what the source
+offers in answer to the *language question*.
+
 Knowledge and art are kept apart in this store, because they differ in kind:
 scientific knowledge is reproducible step by step and can be taught in sequence,
 while a poem or a ballad is not reproduced, it is preserved.
@@ -313,9 +299,8 @@ flowchart TD
 
 *Figure 1. Two things back the currency: verified learning, and mineral revenue
 from both sides of the conflict. A teacher checking a pupil's work is the act that
-mints a coin. Settlement passes a whitelist — essentials clear, weapons are simply
-not a category. A paper journal is a node, not a fallback: it keeps parity with
-the ledger by hash.*
+mints a coin. Settlement passes a whitelist of essential categories. A paper
+journal keeps parity with the ledger by hash.*
 
 ## 10. Trial Node, GodotCraft & Accessible Compute
 
@@ -335,12 +320,10 @@ To make the concept tangible for anyone:
 
 The source sets a specific first test, and its point is not that the software
 runs. It is that the thing governs: that it taxes, that its books balance, and
-that peace is cheaper than fighting — demonstrated small enough to be checked by
-hand.
+that it holds — demonstrated small enough to be checked by hand.
 
 - **Cohort: 100 people** — 50 Ukrainian learners and 50 defectors from the
-  aggressor's army. The mix is the test, not a gesture: a system that cannot hold
-  both sides at one table does not stop a war.
+  aggressor's army.
 - **Pool: $1M** of tokenized mineral value, split 50 / 30 / 20 as in §4, with 5%
   taken at the point of use.
 - **What is measured:** whether an amendment submitted by a participant actually
@@ -382,8 +365,7 @@ tooling:
    a GodotCraft plugin exposing balances, assessments, and amendments in-game."
 6. *Spending whitelist* — "Restrict settlement to whitelisted categories (food,
    housing, schooling, transport, health). Weapons and munitions are not on the
-   list. Implement it as an allow-list, never as a ban list — the difference is
-   the whole political argument."
+   list. Implement it as an allow-list, not as a ban list."
 7. *Validator rebuild* — "Make the client reproducible from source and require a
    validator to reproduce it as part of qualifying: compare their build against
    the published hash before the stake counts."
@@ -391,7 +373,7 @@ tooling:
    fields, each required. Route the simple cases to contract logic and the rest to
    arbiters, and write the ruling and its reasoning to the ledger."
 9. *Paper parity* — "Every record must have a printable form whose hash matches
-   the chain entry, so a paper journal is a node and not a souvenir."
+   the chain entry, so a paper journal counts as a node."
 10. *Languages* — "Ship the public dictionary as signed data, issue documents in
     three languages, and make no language mandatory anywhere in the product."
 
@@ -400,9 +382,9 @@ tooling:
 1. Whitepaper & open concept (this document + repository).
 2. Trial node — public testnet.
 3. The 100-person pilot of §10a, checked on paper against the chain.
-3. GodotCraft integration + laptop/Colab example.
-4. Civic AI service (e-government style) delivered through familiar interfaces.
-5. Ecosystem integration (companion tutor, media/3D, open-world game) on shared
+4. GodotCraft integration + laptop/Colab example.
+5. Civic AI service (e-government style) delivered through familiar interfaces.
+6. Ecosystem integration (companion tutor, media/3D, open-world game) on shared
    accounts and ledger.
 
 ## 13. Principles & Conclusion
