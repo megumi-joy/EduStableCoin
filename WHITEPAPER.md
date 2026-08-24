@@ -127,19 +127,16 @@ loops back into the same ledger, so tax is visible to the person paying it. The
 paper ledger mirrors the chain line for line — a treasury nobody can read is the
 problem being solved, not the design.
 
-**An arithmetic correction to the source.** The founding text promises a family
-$5,000–$10,000 a month while also naming $500bn across ~32 million people. Those
-do not meet: $500bn over 32 million is about $15,600 *once*, not monthly. The
-honest statement of the mechanism is a **pool that pays out of yield and
-continuing revenue**, at a rate set by what the pool actually earns — not a fixed
-monthly figure printed in advance. The intent survives the correction; the number
-does not.
+**How much it pays.** The pool pays out of yield and continuing revenue, at a
+rate set by what it actually earns. No fixed monthly figure is printed in
+advance: a promised amount that the pool cannot cover is worse than an honest
+one it can.
 
-**A factual correction to the source.** The founding text chooses Dogecoin partly
-for being "deflationary". It is not: Dogecoin issues roughly 5 billion coins a
-year with no cap, which is inflationary by construction. The reasons that do hold
-— low fees, accessibility, no elitism around it — are kept; the premise is
-dropped.
+**Why not simply copy an existing coin.** Low fees and accessibility are what
+matter for a currency people are meant to hold in daily life, and neither
+requires a fixed supply. A coin issuing several billion units a year without a
+cap is inflationary whatever its reputation says, so the choice here rests on
+cost and reach rather than on scarcity.
 
 ## 5. Education as Freelancing — Access & Progression
 
@@ -346,13 +343,13 @@ hand.
   both sides at one table does not stop a war.
 - **Pool: $1M** of tokenized mineral value, split 50 / 30 / 20 as in §4, with 5%
   taken at the point of use.
-- **What is measured:** whether the cohort's vote actually moves the allocation;
-  whether the collected tax rebuilds one real thing (a school was the worked
-  example); whether people leave the fighting and stay left; and whether
-  validators, rebuilding the client, find nothing.
-- **Checked on paper as well as on chain.** Every token, vote and tax written out
-  by hand and matched against the ledger, line for line. If the two disagree, the
-  pilot has failed, whatever the software reports.
+- **What is measured:** whether an amendment submitted by a participant actually
+  moves the allocation; whether the collected tax rebuilds one real thing (a
+  school was the worked example); whether people leave the fighting and stay
+  left; and whether validators, rebuilding the client, find nothing.
+- **Checked on paper as well as on chain.** Every token, amendment and tax
+  written out by hand and matched against the ledger, line for line. If the two
+  disagree, the pilot has failed, whatever the software reports.
 
 **On language and pace.** The author asked twice for plain, formal wording:
 *airdrop* and its neighbours read as fraud to people who have been defrauded, so
