@@ -23,6 +23,9 @@ EduStableCoin — децентралізована криптовалюта, щ�
 - **docs/**: `overview.md`, `todo.md`, research notes and the game-design draft
 - **prompts/**: `app.md` — the build prompt-set
 - **[unsorted_ideas.md](unsorted_ideas.md)**: Not yet folded into the spec
+- **[WHITEPAPER_ORIGINAL.md](WHITEPAPER_ORIGINAL.md)**: the white paper as it was
+  written inside the founding discussion — ten slides, trilingual, extracted
+  verbatim from Chat_about_concept.txt
 - **[Wiki](https://github.com/megumi-joy/EcosystemWiki)**: navigation through the concept — components, architecture, and what is not yet decided
 
 There is **no contract, frontend or script code in this repository**, and no
