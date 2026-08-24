@@ -94,14 +94,30 @@ on minimal hardware:
    it hard to game).
 2. **Handwritten, not typed** — a photo of handwritten work is read by vision/OCR
    and graded. Typed answers are disallowed (they are trivially copy-pasted from an
-   AI); handwriting shows genuine internalization and doubles as a weak biometric.
+   AI); handwriting shows genuine internalization. It is **not** treated as a
+   biometric — the card identifies deeds, never bodies.
 3. **Credential seeding** — recognized real-world credentials seed the passport
-   (e.g. a national passport implies the corresponding language). Trust is tiered:
-   self-declared → system-verified → officially-verified.
+   (e.g. a national passport implies the corresponding language). Each result
+   carries the seal of how it was witnessed — alone, before a master, or by
+   charter — named for what actually happened rather than for a degree of
+   official confidence. Work nobody watched still counts; it is simply read as
+   work nobody watched, and the top rank is not reachable on it alone.
 
 Every assessment result is **hashed to the ledger**, making the knowledge passport
 verifiable and tamper-resistant (this also realizes the early idea that even a
 paper journal can be tracked symbolically via digital hashes).
+
+**The passport is an adventurer's card, not an identity document.** An identity
+document answers *who is this person* and proves it with something taken from
+their body; this answers *what has this person done* and proves it with the deeds
+themselves. Concretely, it carries no name, age, photograph or biometric of any
+kind — only ranks per subject, the number of questions each rank rests on, and how
+each was witnessed: **alone**, **before a master** (oral or handwritten), or **by
+charter** (a seeded credential). This is what makes it safe to show: a card that
+carried a body could not be handed to a stranger, and a credential nobody can show
+is not a credential. The count of questions is always shown beside the rank, so a
+high rank earned on four questions cannot be mistaken for one earned on four
+hundred.
 
 **Gamified, productive learning.** Learning is delivered as **quests** and
 gamification with **free choice** of subject: quests are real learning and
@@ -201,7 +217,10 @@ tooling:
 2. *Assessment* — "Implement three assessment intakes — oral (speech→grade),
    handwritten (image→OCR→grade), credential-seed (verify→tier) — each emitting a
    signed result hashed to the ledger and raising the knowledge-passport tier."
-3. *Passport & rights* — "Gate earning/validating/amending/teaching on passport
+3. *Passport & rights* — "Build the passport as an adventurer's card: ranks per
+   subject with the question count they rest on, and a seal per result (alone /
+   before a master / by charter). No personal identifiers of any kind. Gate
+   earning/validating/amending/teaching on passport
    tier; keep learning ungated."
 4. *Governance* — "Implement validator staking, banknote minting, amendment
    submission that updates system state without a vote, and arbiter adjudication
