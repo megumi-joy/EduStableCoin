@@ -16,20 +16,23 @@ EduStableCoin — децентралізована криптовалюта, щ�
 - **Education**: Earn coins by learning and creating—knowledge pays!  
 - **AI Empowerment**: Mine coins through AI tasks, staying vital in an automated economy.
 
-## Repository Structure  
-- **contracts/**: Smart contracts (`EduStableCoin.sol`, `EduFlexCoin.sol`)  
-- **docs/**: Docs (`overview.md`, `social_impact.md`, `ecosystem.md`)  
-- **frontend/**: UI (coming soon)  
-- **scripts/**: Test scripts  
-- **README.md**: You’re here!  
-- **[about_EN.md](about_EN.md), [about_RU.md](about_RU.md), [about_UA.md](about_UA.md)**: Project overview in three languages  
-- **[CONTRIBUTING.md](CONTRIBUTING.md)**: How to join  
-- **[LICENSE](LICENSE)**: Licensing info  
+## Repository Structure
+- **[WHITEPAPER.md](WHITEPAPER.md)**: Full specification (13 sections)
+- **[about_EN.md](about_EN.md), [about_RU.md](about_RU.md), [about_UA.md](about_UA.md)**: Project overview in three languages
+- **[concept.md](concept.md)**, **[Chat_about_concept.txt](Chat_about_concept.txt)**: The original discussion the concept grew from
+- **docs/**: `overview.md`, `todo.md`, research notes and the game-design draft
+- **prompts/**: `app.md` — the build prompt-set
+- **[unsorted_ideas.md](unsorted_ideas.md)**: Not yet folded into the spec
+- **[Wiki](https://github.com/megumi-joy/EcosystemWiki)**: navigation through the concept — components, architecture, and what is not yet decided
 
-## Get Started  
-1. Pick your language: [EN](about_EN.md) | [RU](about_RU.md) | [UA](about_UA.md)  
-2. Explore the vision in [docs/overview.md](docs/overview.md)  
-3. Dig into the code in [contracts/](contracts/)  
-4. Join us—see [CONTRIBUTING.md](CONTRIBUTING.md)  
+There is **no contract, frontend or script code in this repository**, and no
+testnet. This is a blueprint, published so that others can build it on their own
+compute — see §11 of the whitepaper for the implementable spec.
+
+## Get Started
+1. Pick your language: [EN](about_EN.md) | [RU](about_RU.md) | [UA](about_UA.md)
+2. Read the specification: [WHITEPAPER.md](WHITEPAPER.md)
+3. Build it: §11 lists the contracts, assessment intakes, passport gating,
+   governance and node work as prompt-steps a team can hand to its own tooling.
 
 Let’s build a future where education drives progress, not corruption!

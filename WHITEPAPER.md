@@ -83,7 +83,7 @@ draws from a shared knowledge pool on an approachable social network.
 
 **Access is not gated by an exam.** Anyone may enter and learn freely (accessible
 to all). Passing assessments *unlocks* rights and status — earning coins, becoming
-a validator, voting, teaching others, and raising the tier of a portable
+a validator, submitting amendments, teaching others, and raising the tier of a portable
 **knowledge passport**. Proof-of-knowledge is *progression*, not a wall.
 
 **Three assessment modes**, all designed to resist AI-assisted cheating and to work
@@ -124,9 +124,13 @@ subject to legal review.)
 ## 6. Transparent Governance
 
 An immutable ledger makes payments for education, public services, and taxes
-auditable. Participants act as validators, may mint personalized tokenized
-"banknotes," and take part in transparent, decentralized voting — including as the
-arbiters that adjudicate escrow reversals and complex disputes. The aim is economic
+auditable. Governance has **no voting**. There is no ballot, no competing options and no
+majority: the single governance action is to **submit an amendment** (a proposal),
+and the system **updates** from it. Because the ledger is immutable, an update is a
+layer on top — the prior state and the amendment both remain visible, and nothing
+is overwritten. Participants act as validators, may mint personalized tokenized
+"banknotes," and serve as the arbiters that adjudicate escrow reversals and direct
+contradictions between amendments. The aim is economic
 empowerment as a path to more accountable institutions, and to reducing the
 conditions (poverty, lack of opportunity, lack of transparency) that drive
 instability.
@@ -162,7 +166,7 @@ flowchart TD
     V --> BC
     BC --> ES[EStableCoin: stable, 24h-escrow reversible]
     BC --> EF[EFlexCoin: floating, micro-contribution]
-    BC --> GOV[Governance & Voting]
+    BC --> GOV[Governance: amendments update the system]
     ES --> SVC[Education / Freelance / Public Services]
 ```
 
@@ -178,7 +182,7 @@ To make the concept tangible for anyone:
 - **GodotCraft integration.** A worked example of embedding the node into
   **GodotCraft** — an open, Godot-engine voxel game — so a familiar,
   Minecraft-style world becomes a low-barrier on-ramp into the ecosystem (learn,
-  earn, and vote from inside the game). *(GodotCraft repository: TBD — link to be
+  earn, and submit amendments from inside the game). *(GodotCraft repository: TBD — link to be
   added.)*
 - **Runs on a laptop.** A ready-to-run example on free cloud GPU (e.g. Google
   Colab's ~12-hour GPU sessions), so participants need only a laptop — no dedicated
@@ -197,12 +201,13 @@ tooling:
 2. *Assessment* — "Implement three assessment intakes — oral (speech→grade),
    handwritten (image→OCR→grade), credential-seed (verify→tier) — each emitting a
    signed result hashed to the ledger and raising the knowledge-passport tier."
-3. *Passport & rights* — "Gate earning/validating/voting/teaching on passport
+3. *Passport & rights* — "Gate earning/validating/amending/teaching on passport
    tier; keep learning ungated."
-4. *Governance* — "Implement validator staking, banknote minting, proposal voting,
-   and arbiter adjudication for escrow reversals and disputes."
+4. *Governance* — "Implement validator staking, banknote minting, amendment
+   submission that updates system state without a vote, and arbiter adjudication
+   for escrow reversals and contradicting amendments."
 5. *Node & client* — "Package a testnet node runnable on a free-GPU notebook, plus
-   a GodotCraft plugin exposing balances, assessments, and voting in-game."
+   a GodotCraft plugin exposing balances, assessments, and amendments in-game."
 
 ## 12. Roadmap
 
